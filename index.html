@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cálculo Pass</title>
+  </head>
+  <body>
+    <div class="box">
+      <form action="">
+        <fieldset>
+          <legend>Cálculo de Passantes</legend>
+          <div class="inputBox">
+            <input
+              type="number"
+              name="quantPecas"
+              id="quantPecas"
+              class="inputUser"
+              required
+            />
+            <label class="labelInput" for="">Quantidade de Peças</label>
+          </div>
+          <div class="inputBox">
+            <input
+              type="number"
+              name="quantPass"
+              id="quantPass"
+              class="inputUser"
+              required
+            />
+            <label class="labelInput" for="">Quantidade de Passantes por Peça</label>
+          </div>
+          <div class="inputBox">
+            <input
+              type="number"
+              name="tamTira"
+              id="tamTira"
+              class="inputUser"
+              required
+            />
+            <label class="labelInput" for="">Tamanho das Tiras em Centimetros</label>
+            <div>
+              <p>Tamanho dos Passantes</p>
+              <div class="tamPass">
+                <div>
+                  <input
+                    type="radio"
+                    name="tamPass"
+                    id="7cm"
+                    value="7"
+                    required
+                  />
+                  <label for="7cm">7 cm</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    name="tamPass"
+                    id="8cm"
+                    value="8"
+                    required
+                  />
+                  <label for="8cm">8 cm</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    name="tamPass"
+                    id="9cm"
+                    value="9"
+                    required
+                  />
+                  <label for="9cm">9 cm</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    name="tamPass"
+                    id="10cm"
+                    value="10"
+                    required
+                  />
+                  <label for="10cm">10 cm</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    name="tamPass"
+                    id="11cm"
+                    value="11"
+                    required
+                  />
+                  <label for="11cm">11 cm</label>
+                </div>
+              
+                </div>
+              </div>
+            </div>
+            <input type="submit" value="Calcular" id="calcular" />
+          </div>
+        </fieldset>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
